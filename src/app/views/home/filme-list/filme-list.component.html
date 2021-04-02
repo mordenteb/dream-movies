@@ -1,0 +1,30 @@
+<mat-tab-group class="filmes">
+    <mat-tab label="Filmes" > 
+
+
+        <!-- Módulo de exibição de filmes -->
+        <!-- <div fxLayout="row" fxLayoutAlign="start start" class="filme" *ngFor="let filme of filmes"> -->
+        <div fxLayout="row" fxLayoutAlign="start start" class="filme">
+            <mat-card  fxFlex="100%" fxFlex.lt-md="30%" fxFlex.lt-sm="100%">
+
+                <mat-card-header>
+                    <mat-card-title>Os Vingadores: Ultimato</mat-card-title>
+                </mat-card-header>
+                <img mat-card-image src="https://sucodemanga.com.br/wp-content/uploads/2019/04/vingadores-ultimato-thumb.jpg" alt="Photo of a Shiba Inu">
+                <mat-card-content>
+                    <p>
+                        Vingadores ou Os Vingadores são um grupo de super-heróis de história em quadrinhos publicados nos Estados Unidos pela editora Marvel Comics. O grupo também aparece em adaptações da Marvel para cinema, desenho animado e jogos eletrônicos.
+                    </p>
+                </mat-card-content>
+                <mat-card-actions>
+                    <a mat-button routerLink="/filme">Ver mais</a>
+                </mat-card-actions>
+
+            </mat-card>
+        </div>
+
+
+    </mat-tab>
+
+
+</mat-tab-group>
